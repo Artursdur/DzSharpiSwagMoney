@@ -19,7 +19,7 @@
                 }
                 catch (ApplicationException ex)
                 {
-                    throw new ApplicationException("oh no, you're bankrupt");
+                    throw new ApplicationException("банкрот");
                 }
             }
 
@@ -27,7 +27,7 @@
             {
                 if (result.Sum < 0)
                 {
-                    throw new ApplicationException("bankrupt");
+                    throw new ApplicationException("банкрот");
                 }
             }
         }
